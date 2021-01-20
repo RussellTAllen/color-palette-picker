@@ -1,0 +1,50 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+html{
+  font-size: 30px;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+header,
+main{
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  margin: 0 auto;
+}
+h1{
+  text-align: center;
+}
+div,
+input{
+  margin: 0 30px;
+}
+main{
+  margin-top: 100px;
+}
+h2{
+  text-indent: 50px;
+}
+section{
+  border: 3px solid black;
+  padding: 50px;
+  margin: 20px;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
