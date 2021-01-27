@@ -4,13 +4,11 @@ const bgColor = document.getElementById('bg-color')
 const accentColor = document.getElementById('accent-color')
 const accentColor2 = document.getElementById('accent-color2')
 
-
 title.addEventListener('input', updatePage)
 textColor.addEventListener('input', updatePage)
 bgColor.addEventListener('input', updatePage)
 accentColor.addEventListener('input', updatePage)
 accentColor2.addEventListener('input', updatePage)
-
 
 function updatePage(){
     document.querySelector('h2').innerText = title.value
@@ -22,9 +20,7 @@ function updatePage(){
     document.getElementById('bg-value').innerText = bgColor.value
     document.getElementById('accent-value').innerText = accentColor.value
     document.getElementById('accent-value2').innerText = accentColor2.value
-
 }
-
 
 function init(){
     updatePage()
